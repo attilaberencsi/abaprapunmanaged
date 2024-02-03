@@ -1,0 +1,49 @@
+@Metadata.layer: #CORE
+@UI: { headerInfo: { typeName: 'MySalesOrder',
+                     typeNamePlural: 'MySalesOrders',
+                     title: { type: #STANDARD,
+                              value: 'SalesOrderID' } } }
+annotate view ZC_MySalesOrder with
+{
+  @UI.facet: [ { id:            'MySalesOrder',
+                  purpose:       #STANDARD,
+                  type:          #IDENTIFICATION_REFERENCE,
+                  label:         'MySalesOrder',
+                  position:      10 }]
+
+  @UI: { lineItem:       [ { position: 10,
+                             importance: #HIGH } ],
+         identification: [ { position: 10 } ],
+         selectionField: [ { position: 10 } ] }
+  SalesOrderID;
+  @UI: { lineItem:       [ { position: 20,
+                            importance: #MEDIUM } ],
+        identification: [ { position: 20 } ],
+        selectionField: [ { position: 20 } ] }
+  Customer;
+  @UI: { lineItem:       [ { position: 30,
+                      importance: #MEDIUM } ],
+  identification: [ { position: 30 } ] }
+
+  MemoText1;
+  @UI: { lineItem:       [ { position: 40,
+                   importance: #MEDIUM } ],
+  identification: [ { position: 40 } ] }
+  MemoText2;
+  @UI: { lineItem:       [ { position: 50,
+                   importance: #MEDIUM } ],
+  identification: [ { position: 50 } ] }
+  NetAmount;
+
+  //  @UI: { lineItem:       [ { position: 60,
+  //                             importance: #MEDIUM } ],
+  //  identification: [ { position: 60 } ] }
+  //  Currency;
+
+  @UI.lineItem: [{ position: 60 }]
+  Status;
+
+  //  @UI.identification: [{ position: 70 }]
+  @UI.lineItem: [{ position: 70 }]
+  LocalLastChangedAt;
+}

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZVB_MESSAGES</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Z-Kundenauftrag Nachrichten</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZVB_MESSAGES</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZVB_MESSAGES</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Auftrag &amp;1 nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZVB_MESSAGES</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Auftrags-ID ist initial</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZVB_MESSAGES</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Auftrag &amp;1 ist gesperrt durch &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZVB_MESSAGES</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Fehler beim Setzen der Sperre aufgetreten</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZVB_MESSAGES</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Nettobetrag darf nicht negativ sein</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZVB_MESSAGES</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Nettobetrag ohne Währungsangabe nicht erlaubt</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

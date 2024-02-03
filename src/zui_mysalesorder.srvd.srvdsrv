@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition MySalesOrder'
+define service ZUI_MYSALESORDER {
+  expose ZC_MySalesOrder as MySalesOrder;
+  expose I_Customer_VH as Customer_VH;
+}
