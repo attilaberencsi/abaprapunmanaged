@@ -4,6 +4,7 @@
   <asx:values>
    <DDLS>
     <DDLNAME>ZC_MYSALESORDER</DDLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
     <SOURCE_TYPE>P</SOURCE_TYPE>
    </DDLS>
   </asx:values>
