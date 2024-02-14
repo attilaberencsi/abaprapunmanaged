@@ -1,9 +1,4 @@
-projection;
-
-define behavior for ZC_MySalesOrder alias MySalesOrder
-use etag
+unmanaged;
+define behavior for ZC_MYSALESORDER
 {
-  use create;
-  use update;
-  use delete;
 }

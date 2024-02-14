@@ -1,5 +1,13 @@
-CLASS zbp_i_mysalesorder DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_mysalesorder.
+class ZBP_I_MYSALESORDER definition
+  public
+  create private .
+
+public section.
+protected section.
+private section.
 ENDCLASS.
 
-CLASS zbp_i_mysalesorder IMPLEMENTATION.
+
+
+CLASS ZBP_I_MYSALESORDER IMPLEMENTATION.
 ENDCLASS.

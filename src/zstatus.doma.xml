@@ -4,27 +4,46 @@
   <asx:values>
    <DD01V>
     <DOMNAME>ZSTATUS</DOMNAME>
-    <DDLANGUAGE>D</DDLANGUAGE>
     <DATATYPE>CHAR</DATATYPE>
     <LENG>000001</LENG>
     <OUTPUTLEN>000001</OUTPUTLEN>
     <VALEXI>X</VALEXI>
-    <DDTEXT>Z-Kundenauftrag Status</DDTEXT>
    </DD01V>
    <DD07V_TAB>
     <DD07V>
+     <DOMNAME>ZSTATUS</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DOMVALUE_L>0</DOMVALUE_L>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZSTATUS</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DOMVALUE_L>1</DOMVALUE_L>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Z-Kundenauftrag Status</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
      <VALPOS>0001</VALPOS>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DOMVALUE_L>0</DOMVALUE_L>
      <DDTEXT>unvollständig</DDTEXT>
-    </DD07V>
-    <DD07V>
+    </item>
+    <item>
      <VALPOS>0002</VALPOS>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DOMVALUE_L>1</DOMVALUE_L>
      <DDTEXT>vollständig</DDTEXT>
-    </DD07V>
-   </DD07V_TAB>
+    </item>
+   </DD07_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

@@ -8,10 +8,10 @@
     <DBNA>D$</DBNA>
     <SUBC>F</SUBC>
     <APPL>S</APPL>
-    <RLOAD>D</RLOAD>
+    <RLOAD>E</RLOAD>
     <FIXPT>X</FIXPT>
     <LDBNAME>D$S</LDBNAME>
-    <UCCHECK>X</UCCHECK>
+    <UCCHECK>5</UCCHECK>
    </PROGDIR>
   </asx:values>
  </asx:abap>

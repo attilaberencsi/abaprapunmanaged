@@ -4,32 +4,33 @@
   <asx:values>
    <DD04V>
     <ROLLNAME>ZSTATUS</ROLLNAME>
-    <DDLANGUAGE>D</DDLANGUAGE>
+    <DDLANGUAGE>E</DDLANGUAGE>
     <DOMNAME>ZSTATUS</DOMNAME>
     <LOGFLAG>X</LOGFLAG>
     <HEADLEN>06</HEADLEN>
     <SCRLEN1>06</SCRLEN1>
     <SCRLEN2>06</SCRLEN2>
     <SCRLEN3>06</SCRLEN3>
-    <DDTEXT>Z-Kundenauftrag Status</DDTEXT>
-    <REPTEXT>Status</REPTEXT>
-    <SCRTEXT_S>Status</SCRTEXT_S>
-    <SCRTEXT_M>Status</SCRTEXT_M>
-    <SCRTEXT_L>Status</SCRTEXT_L>
+    <DDTEXT>Z-Order status</DDTEXT>
+    <REPTEXT>status</REPTEXT>
+    <SCRTEXT_S>status</SCRTEXT_S>
+    <SCRTEXT_M>status</SCRTEXT_M>
+    <SCRTEXT_L>status</SCRTEXT_L>
     <DTELMASTER>D</DTELMASTER>
     <REFKIND>D</REFKIND>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
    <I18N_LANGS>
-    <LANGU>E</LANGU>
+    <LANGU>D</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
-     <DDLANGUAGE>E</DDLANGUAGE>
-     <DDTEXT>Z-Order status</DDTEXT>
-     <REPTEXT>status</REPTEXT>
-     <SCRTEXT_S>status</SCRTEXT_S>
-     <SCRTEXT_M>status</SCRTEXT_M>
-     <SCRTEXT_L>status</SCRTEXT_L>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Z-Kundenauftrag Status</DDTEXT>
+     <REPTEXT>Status</REPTEXT>
+     <SCRTEXT_S>Status</SCRTEXT_S>
+     <SCRTEXT_M>Status</SCRTEXT_M>
+     <SCRTEXT_L>Status</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>
